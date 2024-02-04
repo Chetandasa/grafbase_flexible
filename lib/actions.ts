@@ -128,4 +128,3 @@ export const getUser = (email: string) => {
   client.setHeader("x-api-key", apiKey);
   return makeGraphQLRequest(getUserQuery, { email });
 };
-
